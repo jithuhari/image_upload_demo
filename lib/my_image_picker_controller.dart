@@ -13,4 +13,9 @@ class MyImagePickerController extends GetxController {
 
     update();
   }
+
+    clearimage() {
+    imageFile = null;
+    update();
+  }
 }
